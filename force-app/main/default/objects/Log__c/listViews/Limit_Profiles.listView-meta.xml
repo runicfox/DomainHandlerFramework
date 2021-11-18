@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Limit_Profiles</fullName>
+    <columns>NAME</columns>
+    <columns>CreatedWithTime__c</columns>
+    <columns>Source__c</columns>
+    <columns>Query__c</columns>
+    <columns>Query_Rows__c</columns>
+    <columns>DML__c</columns>
+    <columns>DML_Rows__c</columns>
+    <columns>CPU__c</columns>
+    <columns>Heap__c</columns>
+    <columns>Transaction_Id__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Log__c.Limit_Profile</value>
+    </filters>
+    <filters>
+        <field>Source__c</field>
+        <operation>equals</operation>
+        <value>Case AU RiskServicesContact</value>
+    </filters>
+    <label>Limit Profiles</label>
+</ListView>

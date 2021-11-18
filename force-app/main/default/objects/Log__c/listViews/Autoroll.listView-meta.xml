@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Autoroll</fullName>
+    <columns>CREATED_DATE</columns>
+    <columns>NAME</columns>
+    <columns>Source__c</columns>
+    <columns>OBJECT_ID</columns>
+    <columns>Severity__c</columns>
+    <columns>Text__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Source__c</field>
+        <operation>equals</operation>
+        <value>Autoroll Opp</value>
+    </filters>
+    <filters>
+        <field>Severity__c</field>
+        <operation>equals</operation>
+        <value>Error</value>
+    </filters>
+    <label>Autoroll Errors</label>
+</ListView>
